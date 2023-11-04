@@ -21,6 +21,7 @@ nav{
     padding: 20px 0;
     align-items: center;
     justify-content: space-between;
+    box-shadow: #f8f8f8;
 }
 .leftnav img{
     display: flex;
@@ -74,19 +75,22 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width:100%;
 }
+
+
 .subtext{
     font-size: 24px;
     font-weight: 500;
-    padding-top: 10px;
+    padding-top: 5px;
     color: black;
-    margin-inline-start: 40%;
+    margin-inline-start: 43%;
 }
-.container1 h2{
+.container1 h1{
     font-size: 50px;
-    font-weight: 500;
+    font-family:cursive;
+    font-weight: 400;
     padding-top: 40px;
-    color: black;
-    margin-inline-start: 38%;
+    color: rgb(251, 246, 246);
+    margin-inline-start: 41%;
 }
 .places-list{
     display: grid;
@@ -118,6 +122,7 @@ nav ul li a:hover::after{
     margin: 20px auto;
     width: fit-content;
     border: 1px solid black;
+    box-shadow: 2px #fff3f3;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -129,7 +134,8 @@ nav ul li a:hover::after{
 
 }
 .btn:hover{
-    background:rgb(255, 8, 0);
+    background-color:rgb(249, 0, 33);
+    color: aliceblue;
 }
 
 
@@ -297,10 +303,15 @@ nav ul li a:hover::after{
 .place p span{
     color: aliceblue;
     font-size: 22px;
+    
 }
 .place p{
     color: black;
     font-size: 16px;
+    
+}
+.place a{
+text-decoration: none;
 }
 /* ---------------footer----------------- */
 footer {
@@ -426,7 +437,8 @@ form .btn4.cvbtn{
 
 }
 form .btn4.cvbtn:hover{
-    color:rgb(255, 8, 0);
+    background-color:rgb(255, 8, 0);
+    color: aliceblue;
 }
 
 .copyright{
@@ -443,3 +455,4 @@ form .btn4.cvbtn:hover{
     display: block;
     font-size: 22px;
 }
+
