@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cf705bb570.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="row">
+        <nav>
+        <div class="leftnav">
+            <img src="image/logo.png" alt="logo">
+        </div>
+        
+        <ul>
+            <li><div class="search-bar">
+                <input type="text" placeholder="Search">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div></li>
+            <li><a href="#content">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#footer">About</a></li>
+            
+            
+        </ul>
+    </nav>
+</div>
+
+<div id="content">
+    <div class="container">
+        <h1 class="sub-title2">Where next?</h1><br>
+        <h3 class="subtext">Plan your next trip...</h3>
+        <div class="work-list">
+         
+            <div class="work">
+                <img src="image/beach.jpg">
+                <div class="layer">
+                    <h3>Beautiful Beach Paradise</h3>
+                    <p>Discover the stunning beaches and crystal-clear waters of this tropical paradise. Relax, swim, and enjoy the sun in style.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="image/hist.jpg">
+                <div class="layer">
+                    <h3>Historical Sites Tour</h3>
+                    <p>Explore the rich history and culture of ancient civilizations with guided tours to historical landmarks.
+                    </p>
+                    
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="image/mount.jpg">
+                <div class="layer">
+                    <h3>Mountain Adventure</h3>
+                    <p>Embark on an exciting mountain adventure with breathtaking views, hiking trails, and outdoor activities.
+                    </p>
+                
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">Book Now</a>
+    </div>
+
+</div>
+
+<!-- ------------------destinations--------------------- -->
+<div id="destinations">
+    <div class="container">
+        <h3 class="subt">Some must visit places in India</h3>
+        <div class="places">
+         
+            <div class="place">
+                <img src="image/gt.jpg">
+                <p><span>Golden Temple</span><br>
+                Punjab</p>
+                
+            </div>
+
+            <div class="place">
+                <img src="image/ig.jpg">
+                <p><span>India Gate</span><br>
+                New Delhi</p>
+            </div>
+
+            <div class="place">
+                <img src="image/hm.jpg">
+                <p><span>Hawa Mahal</span><br>
+                  Rajasthan</p>
+            </div>
+
+            <div class="place">
+                <img src="image/sw.jpg">
+                <p><span>Shaniwar Wada</span><br>
+                   Pune</p>
+            </div>
+
+            <div class="place">
+                <img src="image/dbn.jpg">
+                <p><span>Deekshabhoomi</span><br>
+                  Nagpur</p>
+            </div>
+
+            <div class="place">
+                <img src="image/Vmk.jpg">
+                <p><span>Victoria Memorial</span><br>
+                   Kolkata</p>
+            </div>
+
+            <div class="place">
+                <img src="image/kst'.jpg">
+                <p><span>Konark Sun Temple</span><br>
+                   Orrisa</p>
+            </div>
+
+            <div class="place">
+                <img src="image/mt.jpg">
+                <p><span>Meenakshi Temple</span><br>
+                   Madurai</p>
+            </div>
+
+        </div>
+        <a href="https://www.tourmyindia.com/blog/top-places-in-india-that-every-tourist-must-visit/" class="btn2">See More</a>
+    </div>
+
+</div>
+
+<!-- -----------------------contact------------------- -->
+<div id="contact">
+    <div class="container4">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title3">CONTACT US</h1>
+                <p><img src="image/contact.png"></p>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Enter your name" required>
+                <input type="text" name="Email-id" placeholder="Email-id" required>
+                <textarea name="Message" rows="8" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn4 cvbtn">Submit</button>
+            </form>
+            <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------------footer------------------------ -->
+<footer>
+    <div id="footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="image/logo.png">
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><span>Contact Us</span>
+                <p><i class="fa-solid fa-paper-plane"></i>  pratik@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>  54855457</p>
+            </li>
+                
+                <li><span>Social Links</span>
+                    <p><a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </p>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+</footer>
+
+<div class="copyright">
+    <p> © Pratik Patil</p>
+
+</div>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwsY98a3rnSX9HLUiWcvfiFbCHRGN3G00n1ecwnR_1P-mXSD2ZJlXowt4ZTjnsDh5BN/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
